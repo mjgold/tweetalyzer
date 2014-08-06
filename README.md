@@ -5,13 +5,15 @@ Learn how to turn return values from the Twitter API into relevant metrics and a
 
 To get this application running.
 
+1. Fork and Clone this repository.
+
 1. Install any relevant gems.
 
   ```shell
   bundle install
   ```
 
-1. Setup your environmental keys correctly.
+1. Setup your `.env` file.
 
   ```shell
   cp .env.example .env
@@ -25,6 +27,14 @@ To get this application running.
 
 
 [twitter-token-tutorial]:https://github.com/codeunion/twitter-client/blob/master/docs/twitter.md#registering-your-application
+
+1. Run the application
+
+```shell
+rackup
+```
+
+1. Head to `http://localhost:9292` and begin to learn about the Magic :boom:
 
 
 ### Useful Resources
