@@ -22,7 +22,8 @@ Bundler.require(:default, Sinatra::Application.environment)
 
 # Load the .env file if it exists
 if File.exists?('.env')
-  Dotenv.load('.env')
+  env_file = File.expand_path("~/dropbox/code/tweetalyzer/.env", __FILE__)
+  Dotenv.load(env_file)
 end
 
 # Make sure you have all the environmental keys you need defined.

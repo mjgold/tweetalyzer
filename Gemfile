@@ -5,6 +5,7 @@ gem 'data_mapper'
 gem 'rake', '~> 10.3.2'
 gem 'twitter'
 gem 'pry'
+gem 'excon'
 
 group :development do
   # We use SQLite3 on our local machines
